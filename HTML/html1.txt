@@ -1,0 +1,73 @@
+List in HTML
+>>>>>unordered List  ( in bullet point)
+>>>>ordered list (in number wise)
+
+#unodered list
+represnt = <ul>
+EX:
+<ul>
+        <li><h2>WANT TO BUY ? : </h2></li>    // CAN USE OTHER TAG INSIDE <ul>
+        <li>FRUITY</li>
+        <li>FIZZ</li>
+        <li>SPRITE</li>
+        <li>MAAZA</li>
+        <li>CAMPA</li>
+    </ul>
+
+NOTE: we not give any TYPE for unordered list
+
+#ORDERED LIST
+represnt = <ol>  and using <ol type='a' or 'A'> it will return in serial wise
+ in alphabetic  order. by default it will return in number wise.
+EX: 
+<ol>
+        <li>FRUITY</li>
+        <li>FIZZ</li>
+        <li>SPRITE</li>
+        <li>MAAZA</li>
+        <li>CAMPA</li>
+    </ol>
+
+>>>>by using type :
+EX:
+<ol type="a">
+        <li>FRUITY</li>
+        <li>FIZZ</li>
+        <li>SPRITE</li>
+        <li>MAAZA</li>
+        <li>CAMPA</li>
+    </ol>
+
+
+# HTML ATTRIBUTES
+
+>>>to add more info to the tag..(lang,type,charset are attributes)
+eg: <html lang="en">,    <meta charset="UTF-8">,    <ol type="a">
+
+# ANCHOR ATTRIBUTES
+
+>>>used to add links to yourn pages
+EX:    
+ <a href="https://www.youtube.com/" >YOUTUBE</a>     // ABSOLUTE LINK == INTERNET LIMK
+<a href="https://www.netflix.com/in/">NETFLIX</a>  // ABSOLUTE LINK == INTERNET LINK
+
+NOTE: absolute link>>> ek file ko dussre html file s connect krne k liey
+this is also use din <a> tag.
+
+#IMAGE ELEMENT 
+
+>> used to add image to yioiur pages
+<img> == single tag(not closeing tag>> only opening tag)
+1.relative url: folderke andrr exist krna imageka
+
+EX: <img src="ironman.jpeg" alt="IRONMAN IAMGE" height="350px" width="350px">
+ alt text give if image not exist or wrong link give it will show alt text...ironman image
+ NOTE: HEIGHT AND WIDTH are not attributes 
+
+ 2.absolute url: online iamges>> by the help of iamge address
+ EX:      <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15793100/capammain.0.1486380085.jpg?quality=90&strip=all&crop=25.254865616311,0,49.490268767377,100" alt="CAPTAIN AMERICA IAMGE" height="350px" width="350px">
+NOTE: if iamge del from the internet it will gone from the pages...
+
+NOTE: HTML IS NOT CASE SENSITIVE...<P>=<p> same..
+javascript is case sensitive
+
