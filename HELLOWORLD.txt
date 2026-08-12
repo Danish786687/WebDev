@@ -1,0 +1,153 @@
+##### **html does not considered space**
+
+### **html element**
+
+
+
+1\.**paragraph** <p> this is a paragrAPH </p>
+
+
+
+2.heading   <h1>     </h1>
+
+
+
+>>>there 6 level of heading I.E h1,h2,h3....
+
+
+
+3\. image   
+
+
+
+
+
+**html tags = container**
+
+
+
+
+
+**<p> Hello World </p>    // all sepatere line**
+
+**<p><b> DANISH</b> </p>                // all will open in my laptop only need domain**
+
+**<p> IMS Engineering College </p>**
+
+
+
+
+
+### **#paragrapgh element**
+
+**represend a paragraph**
+
+
+
+**<p> this is my first para.this is my seond para.this is my first para.**
+
+&#x20;   **this is my seond parthis is my first para.this is my seond parthis is my first para.**
+
+&#x20;   **this is my seond par</p>**
+
+
+
+**<p> <b>this is my first para.this is my seond para.this is my first para.**
+
+&#x20;   **this is my seond parthis is my first para.this is my seond parthis is my first para.**
+
+&#x20;   **this is my seond par</b></p>** 
+
+&#x20;   **<!-- nested tags -->**
+
+
+
+
+
+### **heading element**
+
+**<h1> to <h6>** 
+
+**<h1> >>> large size**
+
+**<h6> >>> small size**
+
+**\*\*heaind always bold alike**
+
+
+
+**<h1> Main heading (AVENGER)</h1>**
+
+**<h2>THOR</h2>**
+
+**<p> this is paragraph </p>**
+
+**<h3>superman</h3>**
+
+**<p> this is paragraph </p>**
+
+
+
+**<h5> ims engieenring coollege</h5>**
+
+**<p> this is paragraph </p>**
+
+
+
+### **HTML BOILERPLATER(! and tap enter)**
+
+
+
+**standard format(hierachical arrangement)**
+
+
+
+**html>>head>>title**
+
+
+
+**<head> == have metadata , link css and file linking here**
+
+**<title> == searchh netflix and above the seach** ~~netflix-india watch show~~   (this will show title menas)
+
+
+
+
+**<!DOCTYPE html>**
+
+**<html lang="en">   //english lang**
+
+**<head>**
+
+&#x20;   **<meta charset="UTF-8">**
+
+&#x20;   **<meta name="viewport" content="width=device-width, initial-scale=1.0">   // meeta dikhtii nhi h** 
+
+&#x20;   **<title>My boilerplate Code</title>**
+
+**</head>**
+
+**<body>**
+
+&#x20;      **<p>HELLO WORLD..</p>**
+
+
+
+
+
+&#x20;   
+
+**</body>**
+
+**</html>**
+
+
+
+
+
+
+
+
+
+&#x20;  
+
