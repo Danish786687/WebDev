@@ -71,3 +71,9 @@ NOTE: if iamge del from the internet it will gone from the pages...
 NOTE: HTML IS NOT CASE SENSITIVE...<P>=<p> same..
 javascript is case sensitive
 
+#MORE TAGS
+1. <br>  === break the line(only opening tag)
+
+2. <b> bold </b>
+3. <i> italic </i>
+4. <u> underline </u >
