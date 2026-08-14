@@ -1,0 +1,131 @@
+# INLINE AND BLOCK ELEMENTS :
+<<block element=take full line and start fron new line
+ex: heading element <h1>,<p>
+
+
+<< inline element= jitne jrrut hogi space utnaa hii legaa
+
+EX: <a>,<img>
+
+# DIV ELEMENT
+:is container used to hold other html element 
+:block level element
+:to make group of elemnt
+
+<div>
+        <a href="https://web.telegram.org/a/">telegram </a>
+        <a href="https://www.youtube.com/"> YOUTUBE </a>
+    </div>
+
+    <a href="https://internship.aicte-india.org/login_new.php?task=PlseLogin">AICTE</a>
+
+note: mostly websites have many div collection
+
+#SPAN ELEMENT
+
+group element or is container used to hold other html element 
+>>inline element
+no internal function
+
+<span>
+        <a href="https://web.telegram.org/a/">telegram </a>
+        <a href="https://www.youtube.com/"> YOUTUBE </a>
+    </span>
+
+    <a href="https://internship.aicte-india.org/login_new.php?task=PlseLogin">AICTE</a>
+
+
+#HR tg <hr>(opening only)
+>> acts as divider
+>>> make a line and separate line and divide thebpage
+
+<p>thisis dnish khan i am 2nd btech student</p>
+    <p>good boy/ bad boy</p>
+    <hr>
+    <p>imsec,gzb,up</p>
+    <hr>
+    <p>i want to be a ......</p>
+
+#<SUB> AND <SUP> TAG
+
+<sub>=niche h2O   (opening and close tag)   H<sub>2</sub>O
+<sup>=power      (opening and close tag)
+
+EX: 
+<h1>a<sup>2</sup></h1>
+<h1>H<sub>2</sub>O</h1>
+
+<!-- PRATICE 4 -->
+    <h1>pythagoras theorem says a<sup>2</sup> + b<sup>2</sup>=c<sup>2</sup></h1>
+    <h1>FORMULA FOR GLUCOSE IS C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></h1>
+
+
+#SEMANTIC MARKUP
+
+>>markup that relates to the meaning of content(name dekh k content btana)
+ex; <h1>=header,<main>,<p>,<img>,<header>,<footer>,<section>,<nav>=navigation =from one webpage to another
+why semnatic??>> 1.code meaningfull and layout >>>structered
+2.SEO friendly(search engine optimization)>> by sementic tag websites come first
+3.websites readable + screen reader(for blind)>>user experience becomegoood
+
+<article></article> tag
+<section> </section>=related content in a section
+<aside> </aside>==related links and content 
+
+NOTE: EVRY WEBSITES HAVE 1 HEADER,MAIN,FOOTER for good websites
+
+#NON-SEMANTIC MARKUP
+
+>>markup that does not relates to the meaning of content(name dekh k content nhih btapatan)
+ex: <div>,<span>
+
+
+#HTML ENTITIES 
+
+start with & and with ;
+
+space= &nbsp;  =non breaking space
+< = &lt;
+> = &gt;
+" = &quot
+
+uses: 
+
+1.reserved chrtr ko display krane ke liye use hotaa 
+2.invisble chrtr like space
+3. difficult to type like heart,sun,cloud,arrow,etc
+4. browser interprete entities
+
+ex:
+        <h1>thi is a &bigstar;</h1>
+        <h1>thi is a &#9733;</h1>
+
+        <!-- practice 5 -->
+     <h1> The sky is cloudy &#9729; &amp; it will rain &#9748; today.</h1>
+
+
+##EMMET##
+
+visit emmet.io    >> documentation>>cheat sheet  
+
+ ex: ! = for boielr plate 
+
+ex: <!-- repesting value ul>li*5 -->
+
+     <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ul>
+
+NOTE: HTML5= HTML NEW VERSION +other things
+         and feature which isnnot part of html javascript,APIs,etc
+
+
+HTML STANDARD : no need to download other things to run 
+
+html code>>>browser=html standard >>>render webpage
+
