@@ -1,0 +1,98 @@
+#tables in html
+>>used to represent real life data //combination of row and column
+
+<table></table>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-LEVEL3</title>
+</head>
+<body>
+    <table>
+        <caption>FOOD MENU</caption>   //SHOW CAPTION  ABOVE TABLE
+        <tr>                     //TO CREATE ROW
+            <th>ITEMS</th>      //TO CREATE HEADER
+            <th>PRICE</th>     //TO CREATE HEADER
+        </tr>
+        <tr>
+            <TD>FROOTI</TD>       //TO ENETR  DATA IN TO THE ROW
+            <TD>20</TD>
+        </tr>
+        <tr>
+            <TD>SHAKE</TD>
+            <TD>50</TD>
+        </tr>
+        <tr>
+            <TD>FIZZ</TD>
+            <TD>300</TD>
+        </tr>
+    </table>
+    
+</body>
+</html>
+
+
+#semantic in table
+
+<thead> == to wrap the table HEADER
+<tbody>= to wrap the body of the btable
+<tfoot>=to wrap the table footer eg.sum of price
+
+#colspan and rowspan ATTRIBUTES
+.....used to create cell cells which spans over multipele ro or column
+
+SPAN=space of cell occupied
+
+>>by default 1 row and 1 coloumn
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-level3</title>
+</head>
+<body>
+    <table border="black">
+        <caption>food menu</caption>
+        <tr>
+            <th rowspan="2">itmes</th>
+            <th colspan="2"> price</th>
+
+        </tr>
+        <tr>
+            <th>inr</th>
+            <th>usd</th>
+
+        </tr>
+        
+        </th>
+
+
+        <tr>
+            <td>fruti</td>
+            <td>20</td>
+            <td>.012</td>
+        </tr>
+        <tr>
+            <td>shake</td>
+            <td>200</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>fizz</td>
+            <td>40</td>
+            <td>0.35</td>
+        </tr>
+
+
+
+
+    </table>
+</body>
+</html>
