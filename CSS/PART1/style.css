@@ -1,0 +1,39 @@
+/* h1{
+    color:red;
+    background-color: black;
+} */
+
+/*--foreground : color is used */
+
+/* h1{
+    color:blue;
+}
+
+p{
+   color:red; 
+}
+
+button{
+    color:chartreuse;
+   
+} */
+
+/*{background-color:purle} color is used */
+
+h1{
+    color:#0000ff;
+    background-color:grey;
+}
+
+h2{
+    color:rgb(151, 5, 173);
+}
+p{
+   color:red; 
+   background-color:rgb(42, 165, 108);
+}
+
+button{
+    color:chartreuse;
+    background:rgb(0,0,0);
+}

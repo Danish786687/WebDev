@@ -1,0 +1,75 @@
+##TEXT PROPERTIES
+
+1.text-align >> left right center>>>> 
+
+>>> text-align:left/start
+>>text-align : right /end
+>>text-align :center
+>> text-align:justify   >> left right s sb barabr ho jyga bich me bhale spacing aajyee
+
+
+2.font-weight >> heading bold km jyda
+
+>> range(100-900)
+>>font-weight: normal/400  
+>> font-weight : bold /700
+>>font-weight:100
+>> font-weight: bolder
+>> font-weight:lighter
+
+
+3.text-decoration >> underline cut the texxt,ect
+>> sets the appperearacne of decorative lines on text like undrliner,overline,linethrough
+
+>>    text-decoration:underline;
+>>    text-decoration: line-through   //color and shape availbe
+>>       text-decoration: green dotted overline;
+
+note: we can remove a href link undrline by:
+
+4.line-height  >> gap between line
+
+>>control the height of the line of text
+
+>> line-height:normal
+>> line-height: 2.5 
+
+
+5.letter-spacing >> space between chrtr words
+
+>>control the horiontal spacing between the text chrtr
+
+>>>letter-spacing: normal;
+>>>letter-spacing: 10px;
+
+note:font-size units in css
+
+
+ABSOLUTE(actual size)        |         RELATIVE(kisi or k relatiion me new size)
+
+px                             |           %
+pt                            |            em
+pc                           |           rem
+cm                             |            ch
+mm                            |      vh
+in                             |    vw+many more
+
+note: >>  1inch=96px
+
+##pixels
+most common used unit absolute
+>> not used n responsive websites(website are look different in diffenet devices)
+>> responsive me relative unit use hoti hn
+
+
+
+
+
+6.font-size >> big small font
+
+>>>     font-size:15px;
+
+##FONT-FAMILY
+>> specicfy a prioritizzed list of one or more font family names
+
+font-family: arial;
