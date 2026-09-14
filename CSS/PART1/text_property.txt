@@ -1,6 +1,6 @@
 ##TEXT PROPERTIES
 
-1.text-align >> left right center>>>> 
+1.text-align >> left ,right, center>>>> 
 
 >>> text-align:left/start
 >>text-align : right /end
@@ -23,7 +23,7 @@
 
 >>    text-decoration:underline;
 >>    text-decoration: line-through   //color and shape availbe
->>       text-decoration: green dotted overline;
+>>     text-decoration: green dotted overline;
 
 note: we can remove a href link undrline by:
 

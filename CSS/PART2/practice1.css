@@ -1,0 +1,16 @@
+h1{
+    color:#1b74e4;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#searchbutton{
+    background-color: black;
+    color:white;
+}
+
+.userbutton{
+    background-color: aqua;
+}

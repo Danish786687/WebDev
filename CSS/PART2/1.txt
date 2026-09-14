@@ -1,0 +1,88 @@
+###selectors in css
+
+ 1.universal selctor
+ >>>> * = to selecct everyhting in a document
+
+ EG:
+ *{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+2.ELEMENT SLECTOR:
+
+>>h1,button,h2,p
+
+h1,h3{
+    color:#B92B27;
+}
+
+h3{
+    color:aqua;
+}
+
+3.ID SELECTOR:
+
+>> # = select an eleemnt based on the value of the eleemnt attributes
+>> 1 elemtn 1 uniue id
+>> <h1 id="myid">
+
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #B92B27;
+    color:white;
+}
+
+3.CLASS SELECTOR:
+
+>> .     .myclass{} (dot opearator)
+
+>>
+<h1 class="a">
+<button class="a">
+<p class ="a">
+
+eg:
+
+.a{
+    color:red;
+}
+
+4.DESCENDANT SELECTOR:
+to slect multiple typs of leleemtntnt 
+
+P>SPAN>UL>LI
+
+div p{
+    property: value;
+}
+
+###COMBINATOR(+)
+
+1.ADJACENT SIBLING (+)
+
+p+h2{
+    prop:val;
+}
+
+<p>......</p>
+<h3>......../h3>
+<h3>......../h3>   // sibline relartion are pa and h3 not div with h3
+<div> <h3>......../h3> </div>
+
+2.CHILD COMBINATOR
+
+<div> <p> <ul> </ul> </p> </div> = direct descendant  here not for<ul>
+
+span > button{
+    prop:val;
+}
+
+##ATTRIBUTE SELECTOR
+
+select element based on the presence or the value of a given attributes
+
+input[attr=value]{
+    pro:val;
+}

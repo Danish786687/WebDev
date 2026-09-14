@@ -1,0 +1,68 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3{
+    color:aqua;
+}
+h1,h3{
+    color:#B92B27;
+}
+
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #B92B27;
+    color:white;
+}
+
+/* class sel elctor */
+.upvote{
+    background-color: green;
+    color:aliceblue;
+}
+
+/* descendant sleector */
+
+.post a{
+    color:purple;
+    background-color: yellowgreen;
+}
+
+nav ul li{
+    color:rgb(6, 231, 70);
+    
+}
+
+nav ul li a{
+    color:rgb(231, 6, 156);
+    
+}
+
+p +h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color:black ;
+    color: cyan;
+}
+
+div > input{
+    background-color: rgb(201, 221, 13);
+    
+}
+
+input[type="text"]{
+    color:rgb(226, 16, 202);
+}
+
+input[type="password"]{
+    color:rgb(15, 4, 161);
+}
+
+input[type]{
+    background-color: antiquewhite;
+}
