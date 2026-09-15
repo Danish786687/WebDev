@@ -83,6 +83,6 @@ span > button{
 
 select element based on the presence or the value of a given attributes
 
-input[attr=value]{
+input[attr="value"]{
     pro:val;
 }
