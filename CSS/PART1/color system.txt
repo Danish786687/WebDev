@@ -1,4 +1,37 @@
+
+
 #COLOR SYSTEM
+
 >>when htmml come 16 color
 >> now 150 around color
 (browse recognize)
+
+
+1.COLOR NAME
+
+color:green
+
+2..RGB(RED,GREEN,BLUE)    (0-255)>>RANGE
+
+>>rgb(255,0,0)
+>>rgb(0,0,0)
+>>rgb(0,0,255)
+>>rgb(0,255,0)
+>>rgb(255,255,255)
+
+
+3.HEX CODE OR HEXADECIMAL
+
+color=#ffffff    >> 2ff=r,2ff=g,2ff=b
+
+total 16 chrtr and digit are used in this colors system
+>> 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f (used too define hex code)
+
+#000000
+#ffffff
+#ffff00
+#ff0000
+#00ff00
+#0000ff
+
+somewebsite have 3digit hex code >> rgb if identacial 2 chrtr
