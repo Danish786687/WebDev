@@ -86,3 +86,55 @@ select element based on the presence or the value of a given attributes
 input[attr="value"]{
     pro:val;
 }
+
+..............................................................................................................................
+#PSUDO CLASS 
+... a keyword added to selector that spacifies a special state of the selected element
+
+1. :hover
+>> cursor ko move krkr lekr jaye tbb kisibhii element prr
+eg:
+    element:hover
+
+button:hover{
+    background-color: black;
+    color:azure;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+    
+
+...............................................................
+2. :active
+>>> click on element then stylee
+eg:
+
+button:active {
+    background-color:rgb(228, 13, 217);
+    color:aqua;
+}
+
+p:active{
+    font-weight: bold ;
+    color:green;
+}
+.........................................................
+3. :checked
+>>>for radio chec button for checkup
+eg:
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+......................................................................
+4. :nth-of-type
+>> like slecting the odd nomber of button
+
+div:nth-of-type(n){
+    background-color: rgb(8, 133, 241);
+}
+

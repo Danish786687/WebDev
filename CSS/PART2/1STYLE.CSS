@@ -66,3 +66,36 @@ input[type="password"]{
 input[type]{
     background-color: antiquewhite;
 }
+
+/* pratice question */
+#myid p{   
+    color: green;
+}
+
+button:hover{
+    background-color: black;
+    color:azure;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active {
+    background-color:rgb(228, 13, 217);
+    color:aqua;
+}
+
+p:active{
+    font-weight: bold ;
+    color:green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(n){
+    background-color: rgb(8, 133, 241);
+}
