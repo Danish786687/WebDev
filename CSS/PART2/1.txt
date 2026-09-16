@@ -90,7 +90,7 @@ input[attr="value"]{
 ..............................................................................................................................
 #PSUDO CLASS 
 ... a keyword added to selector that spacifies a special state of the selected element
-
+.......................................................................................
 1. :hover
 >> cursor ko move krkr lekr jaye tbb kisibhii element prr
 eg:
@@ -108,7 +108,7 @@ h3:hover{
 
 ...............................................................
 2. :active
->>> click on element then stylee
+>>> click on element then stylee come
 eg:
 
 button:active {
@@ -122,7 +122,7 @@ p:active{
 }
 .........................................................
 3. :checked
->>>for radio chec button for checkup
+>>>for radio ,chec button whenr checkup
 eg:
 
 input[type="radio"]:checked + label{
