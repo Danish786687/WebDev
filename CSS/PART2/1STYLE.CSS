@@ -1,3 +1,11 @@
+/* !important */
+
+h3{
+
+    background-color: antiquewhite !important;
+}
+
+
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
@@ -96,6 +104,28 @@ input[type="radio"]:checked + label{
     font-weight: bold;
 }
 
-div:nth-of-type(n){
+div:nth-of-type(2){
     background-color: rgb(8, 133, 241);
 }
+
+h1::first-letter{
+    color:black;
+}
+
+p::first-line{
+    color:red;
+}
+
+p::selection{
+    background-color: limegreen;
+}
+
+/* CASCADING PROPERTY */
+h3{
+    background-color: yellow;
+}
+
+h3{
+    background-color: blue;
+}
+
