@@ -25,7 +25,7 @@
 >>    text-decoration: line-through   //color and shape availbe
 >>     text-decoration: green dotted overline;
 
-note: we can remove a href link undrline by:
+note: we can remove a href link undrline by :
 
 4.line-height  >> gap between line
 
@@ -55,7 +55,7 @@ mm                            |      vh
 in                             |    vw+many more
 
 note: >>  1inch=96px
-
+......................................................................
 ##pixels
 most common used unit absolute
 >> not used n responsive websites(website are look different in diffenet devices)

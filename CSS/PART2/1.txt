@@ -138,3 +138,59 @@ div:nth-of-type(n){
     background-color: rgb(8, 133, 241);
 }
 
+...................................................................
+#pseudo element
+>>> keyword aadded to a slelector that lets you style a spefic part of the selected elememnts
+
+::first-letter
+>> change 1st letter
+
+h1::first-letter{
+    color:black;
+}
+
+::first-line
+>>p::first-line{
+    color:red;
+}
+
+
+::selection
+>>jb hm kisi bhi text ko slelct kre rhe jaise paragrph me highlight type
+
+p::selection{
+    background-color: limegreen;
+}
+
+...........................................................................................
+
+#CASCADING
+>>algortithm >> css declalartion mee >> correct order
+
+>> hmesha last maan jayega...hmesha same ke liyee hiii dekha jaye
+selector should be same
+
+>> this will also posible with css file metnion int the head>
+
+................................................................
+
+# selecotr specificity (3 digit no. in math)
+
+>>algorithm 
+
+id > (class,attributes & psudo-class) > (element&pseudo-elelemnt)
+
+#rule:
+
+id>class>element
+more selector> less selector
+is specificity same then cascading check
+
+inline have greater no. than all thats why we not use the thatin css we will not changed
+
+...................................................................
+
+# !imporatant
+>> to show the most specific thing in document
+>> kbbhi chnge nhi hogaa hmm ek barr likh dekhebtoo bhakeee koi bhi styleing krle
+
