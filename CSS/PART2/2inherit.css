@@ -1,0 +1,23 @@
+/* div{
+    background-color: blue;
+}
+
+p{
+    background-color: rgb(177, 234, 6);
+} */
+
+
+div{
+    background-color: yellow;
+}
+
+/* form{
+    background-color: red;
+} */
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}

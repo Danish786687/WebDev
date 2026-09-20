@@ -194,3 +194,20 @@ inline have greater no. than all thats why we not use the thatin css we will not
 >> to show the most specific thing in document
 >> kbbhi chnge nhi hogaa hmm ek barr likh dekhebtoo bhakeee koi bhi styleing krle
 
+.............................................................................
+
+#INHERITANCE
+
+>>button label input not inherit by default we have to use keword : inherit by using input
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+
+note:
+width,heighth border ,etc. not inherit
