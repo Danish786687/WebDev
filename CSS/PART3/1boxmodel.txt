@@ -1,0 +1,34 @@
+1.Height
+>>> by default it sets the content area height of the element
+>>> contnent area side ki hieght hoti hn
+
+2,Width
+
+>> contnent area width
+
+div{
+    height: 200px;
+    width:400px;
+    background-color: brown;
+}
+
+note:: blue area show height width
+
+.........................................................................................
+
+2.Border
+>>usd to set  div ki outer linee
+
+>> border-wdith
+>> border-style(doblue line,dotted)
+>> border-color
+
+
+.............................................
+/* border shorthand */
+
+    border:5p solid black;
+.........................................................................
+# border sides  >> to control the indivdual sides ot the box
+
+border-left.-right,-bottom,-top
