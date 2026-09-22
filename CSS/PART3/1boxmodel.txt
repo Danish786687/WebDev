@@ -32,3 +32,28 @@ note:: blue area show height width
 # border sides  >> to control the indivdual sides ot the box
 
 border-left.-right,-bottom,-top
+
+
+border-radius;10px
+    border-radius: 10px;
+
+......................................
+#padding
+>>>padding-left
+>>>padding-right
+>>>padding-top
+>>>padding-bottom
+
+eg:
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:50px.....
+
+.............
+/* padding shorthand */
+
+    padding:50px;   .... for all sides
+
+    padding:10px 20px 30px 40px;
+

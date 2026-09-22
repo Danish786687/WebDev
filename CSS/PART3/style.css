@@ -9,9 +9,17 @@ div{
     /* border shorthand */
 
     border:5px solid black;
-    border-left-color: yellow ;
-    border-left-style: dotted;
-    border-top :  5px dashed blue;
+    /* border-left-color: yellow ;
+    border-l; */
+    
+    border-top : black;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:50px;
+    margin-bottom: 25px;
+    margin:25px;
 }
 
 h1{
@@ -25,6 +33,24 @@ h1{
 
     height:40px;
     width: 250px;
+    border-radius: 10px;
+
+}
+
+button{
+    border-color: black;
+    border-radius: 30px;
+    background-color: yellow;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom: 5px; */
+
+    /* padding:50px; */
+    padding:10px 20px 30px 40px;
+
+    margin: 0%;
+
 
 }
 
