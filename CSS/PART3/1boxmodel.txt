@@ -30,7 +30,6 @@ note:: blue area show height width
     border:5p solid black;
 .........................................................................
 # border sides  >> to control the indivdual sides ot the box
-
 border-left.-right,-bottom,-top
 
 
@@ -55,5 +54,17 @@ eg:
 
     padding:50px;   .... for all sides
 
-    padding:10px 20px 30px 40px;
+    padding:10px 20px 30px 40px;  // top right bottom left
+...........................................................................
+#margin >> to get spacing on the outside of border
 
+border to border to another box
+
+>>margin-left
+>>>margin-right
+>>>margin-top
+>>>margin-bottom
+
+eg:
+margin-bottom: 25px;
+margin:25px;

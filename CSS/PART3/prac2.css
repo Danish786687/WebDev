@@ -1,0 +1,9 @@
+.circle{
+    height:100px;width:100px;
+    background-color: pink;
+    border: 2px solid black;
+    /* make the square into the circle */
+    border-radius: 50%;  
+    display: inline-block;
+
+}

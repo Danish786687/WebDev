@@ -1,0 +1,19 @@
+div{
+    height: 150px;
+    width:300px;
+    background-color: grey;
+    border:5px black dotted;
+    margin: 20px 1em 40px 2em ;
+    padding: 1em;
+
+}
+
+h1{
+    border: 10px solid greenyellow;
+    border-color: blue;
+    border-radius: 10px;
+    height:45px;
+    width: 275px;
+    /* margin-bottom: 50px; */
+    padding-left: 20px;
+}
