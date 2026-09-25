@@ -1,0 +1,38 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    background-color: chartreuse;
+    border:2px solid black;
+    margin:10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: bisque;
+}
+
+div:nth-of-type(3n){
+    background-color: rgb(42, 67, 231);
+}
+
+/*  */
+
+#one{
+transform: rotate(-45deg);
+}
+
+#two{
+    transform : scaleX(2);
+}
+
+#three{
+    transform: translate(10px,100px);
+}
+
+#four{
+    transform: skew(30deg);
+}

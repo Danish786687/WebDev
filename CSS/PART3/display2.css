@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(165, 39, 142);
+    height:100px;
+    width:100px;
+    border:6px solid black;
+    margin:5px;
+    display: inline-block;
+}
+
+#third{
+    /* hide the elemment */
+    display : none;
+}

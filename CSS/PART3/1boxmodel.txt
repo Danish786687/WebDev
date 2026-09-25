@@ -30,7 +30,7 @@ note:: blue area show height width
     border:5p solid black;
 .........................................................................
 # border sides  >> to control the indivdual sides ot the box
-border-left.-right,-bottom,-top
+border-left,-right,-bottom,-top
 
 
 border-radius;10px
@@ -68,3 +68,31 @@ border to border to another box
 eg:
 margin-bottom: 25px;
 margin:25px;
+
+
+.....................................................................................................
+#DISPLAY PROPERTY
+>>>>inline vs block elemnt
+>>>block elemt== takes full width availavble(whole block)....the new element start from newline
+>>>inline element= take up only neccssaary width or mention width ....the new elelemnt not start from new line
+
+display== control th element is inline or block....The display CSS property sets whether an element is treated as a block or inline box and the layout used for its children, such as flow layout, grid or flex.
+
+display:inline
+display : block
+display: inline-block;  ... all property then follow like height width marginand all  because of block simpleimnline not consiresed that property
+
+......................................................................................................
+#relative unit (%) in css 
+
+>>define  a size relative to an eleememnt's parent object
+
+eg: width:33.33% //relative to the paarent
+
+
+... em ==relaitve to the font size of the parent in the case of typogaphical properties like font-size and
+and font size of th eleement itself in the case of the proplike width
+
+font size ke hisabb se padding hogi phirrr
+
+drawback:: snowball efect in nested element

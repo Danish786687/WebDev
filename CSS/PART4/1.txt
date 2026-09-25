@@ -1,0 +1,50 @@
+#alpha channel
+>>sets color opacioty for a color ranges from 0 to 1
+>> 0=hidden 1=visible
+rgb(0-255)
+alpha(0-1)......#hexcode=(00-ff)
+...........................................................
+
+#opacity
+>>set the opacity for the element ranges from 0 to 1
+
+>>appluy in all element remove color ,element ,hameeding all
+
+...........................................................................
+
+#CSS TRANSITION
+transition enabele you to define transition between 2 sataes of an eleemnt
+
+>>   square to circle on hover(direct , or delay)
+
+transiiton shrotahand
+propoert name | duration | timing-function | delay
+ transition : margin-top 2s ease-in-out 0.2s;
+
+...........................................................
+ #css transform
+
+ this property rotste,scale,skew or translate an eleement
+
+ 1. rotate
+ tranform:rotae(45deg);
+ 
+ 2.SCALE 
+ >>>scale ...size uska
+
+ 
+#two{
+    transform : scaleX(4);
+}
+
+3.translate
+>>>position hchnage jrnaaa idhr s udhrrr
+
+4. skew
+
+x y kee ki trf khichchnaaa
+#four{
+    transform: skew(30deg);
+}
+
+.................................................................
