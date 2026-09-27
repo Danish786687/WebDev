@@ -35,4 +35,5 @@ transform: rotate(-45deg);
 
 #four{
     transform: skew(30deg);
+    background-color: blueviolet;
 }
