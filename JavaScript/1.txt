@@ -1,0 +1,80 @@
+// let and const new haii orr var purana hnn
+// var,let,const --
+
+// var username = "John Doe"; // var can be redeclared and updated
+
+// var a;
+// var a=10;
+// let a;
+// let a=12;
+// const a=19; 
+// decreclare variable and initialize variable
+
+// var a; // declara krna
+// var a=12; //declara and initialize(phile baar ota hai) krna
+// var a=13;
+  
+// window me add hota hai
+// function scoped hota hai
+// aap firse declare kr skte hoo and same name s >> error nhi aayga
+
+// let a=10;   // value reassign krskte hn
+// let b=23;  // error dega  ki duabra assign krhe
+
+// const dulha = " lab";
+// const dulhan ="laby";  // value not changed assigin new value is not valid but can midifying
+    //eg: const person ={name: "harsh"};
+    //person.name="sharma";  // allowed
+    //person={}  // not allowed
+
+// let a=121;
+// .................................................................................
+// # Scope (global,block, functional)
+
+// var a=1221; //fucntional scope
+
+// {
+//     let b=290; // blocked scope  bs { } k andr use higaa
+// }
+
+// function abcd(){
+//     if(true){
+//         var c=90; // access hoga pure fucntion me out of block me bhi
+//     }
+// }
+///////NOTE: var respect only function(not {}, for , if else)
+//.........................................................................
+
+//Redeclare and Reinitialisation
+
+// var a=12;
+// a=13;
+
+// var a; redecalre this is only with var not with let let generate errror
+
+//.........................................................................
+//TEMPORAL dead ZONE : js ko pta hai ki variable exist hai butt use value nhi de skta
+
+// console.log(a);
+// let a = 20;  //only for let not for var
+// var a =90; // koi dikkt nhi hoginisse isme tdz nhi hota hai
+
+//.............................................................
+
+//Hoisting impact per type
+//hoisting : ek varible ko jab js mein bnaante hai to wo varibale do hisso me toot jata hai and 
+// uska declare part upar chala jata hai or uska intialisation part neeche rh jata hai
+
+// var a=undefined;
+
+
+// console.log(a);
+
+// var a=12;
+//a=12;
+
+//hoisting tino me hoti (valuse kya deta hai niche)
+// var -> hoist -> undefined
+// let -> hoist -> X
+// const -> hoist -> X
+//............................................................................................
