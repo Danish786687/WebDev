@@ -168,7 +168,7 @@ let a=12; give error already declared
 // 5+"1" // '51'
 // "5"-1 // 4
 //## truthy vs falsy
-// 0 false "" null undefinied NaN document.all   ( to check !!0 , !!null ....false)
+//falsy= 0 false "" null undefinied NaN document.all   ( to check !!0 , !!null ....false)
 
 // if(-2){ // true
 
@@ -179,5 +179,139 @@ let a=12; give error already declared
 
 //..............................................................................
 
+day 3 :
+## OPERATORS
+1.ARITHMETIC( + - * / % **)
+>> 1+ 2 =3
+>> "HARS" + "RRH" = HARSHRRH
+>> 2**3=8
+
+2.COMAPARISON( = == === != !==)
+EG: 12==13 // false (not strict comaprison)
+12=="13" // true
+fix by ===(strict comparison)
+12==="13" // false
+
+3. LOGICAL OPERATOR( && ,||, ! )
+
+!!12 show the nature of the valuee (truthy and falsy)
+
+4.ASSSIGNEMNT OPERATOR
+ let a =22;
+ a+=3
+ //a =25
+//a*=2
+//a=50
+
+5.UNARY OPERATOR(AAPLY ON SINGAL VARIABLE)
+= - ! typeof ++ --
++"10"  >> convert into the no.
+
+6. ternary opeartor (?:)  imp
+
+conditon ? true huie ka code : false huyi ka code
+
+12>13 ? console.log("true) : console.log("false")
+
+#typeof vs instanceof
+
+learn:
+>> typeof(null) = object 
+>> typeof([]) = object
+>> typeof(NaN) = Number
+// avobe both are wrong by typeof
+
+//instanceof:(work with only refrnce value like [] {} function() )
+syntax: variable instanceof datatype
+
+let a=[];
+let b={};
+ a instanceof Array // true
+ b instance of Object // true
+ b instance of Array // false
+
+ // let score=78;
+
+// let grade= score >=90 ? "A" : score>=70 ? "B" : score >=60 ? "c" : "fail";
+
+// console.log(grade);  //b
+
+NOTE: !! "" //false
+!!"hello" // true
+!!0 // false
+!!1 // true
+
+//...................................................................................................
+
+day4: CONTROL FLOW
+// if else else if
+// switch case
+//early return pattern
+
+#if else else if
+
+// if(loggedIn && admin){
+
+// }else if(loggedIn){
+
+// }else if(volunteer){
+
+// }else{
+
+// }
+
+#swicth case
+
+// switch(3){
+//     case 1:
+//         break;
+//     case 2:
+//         break;
+//     case 3:  // this will runn
+//         console.log("case 3 will print ");
+//         break;
+//     default:
+// }
+
+//# EARLY RETURN PATTERN
+
+// function getval(val){
+//     if(val<25) return "D";
+//     else if(val<50) return "C";
+//     else if(val<70) return "b";
+//     else return "";
+// }
+// console.log(getval(90));
+
+function getGrade(score){
+    if(score>= 90 && score <=100) return "grade A+";
+    if(score>= 80) return "grade A";
+    if(score >=70) return "Grade B";
+    if(score >= 60) return "Grade c";
+    if(score >=33) return "grade d"
+    if(score >=0) "fail";
+    return "invalid marks entered";
+}
+let score=-65;
+console.log(getGrade(score));
+
+..............................................................................
+//Rock Paper sciccor logic
+
+function rps(user, computer){
+    if(user==computer) return "draw";
+
+    if(user=== "rock" && computer==="scissor") return "user";
+    if(user==="scissor" && computer === "paper" ) return "user";
+    if(user==="paper" && computer==="rock") return "user";
+
+    return "computer";
+
+}
+
+rps("rock","rock");
+rps("paper","rock");
+
+...................................................................................................
 
 
