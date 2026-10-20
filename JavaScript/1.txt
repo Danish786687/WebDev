@@ -299,19 +299,183 @@ console.log(getGrade(score));
 //Rock Paper sciccor logic
 
 function rps(user, computer){
-    if(user==computer) return "draw";
+    if(user==computer) return "draw";  //same input of computer and user
 
     if(user=== "rock" && computer==="scissor") return "user";
     if(user==="scissor" && computer === "paper" ) return "user";
     if(user==="paper" && computer==="rock") return "user";
 
-    return "computer";
-
+    return "computer"; ///all other cases computer won
 }
 
-rps("rock","rock");
-rps("paper","rock");
+console.log(rps("rock","rock"));
+console.log(rps("paper","rock"));
 
 ...................................................................................................
 
+NOTE:: FOR TAKING INPUT FROMO THE USSR 
+let number =prompt("give any number");
+
+day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
+// for while do-while forin foreach
+
+//1 1 1 1 1 1 1 
+//1 2 3 4 5 6 7 
+
+// kha se jana haii -> kha tak jana hai -> kaise jana hai
+//for
+
+// kaha se jana haii -> kab rukna haii -> kaise jana hai
+//while
+
+// 1-4- for
+// 20-30 for
+
+// hello naaajaye - while
+// llaal colorka ped - while
+// bhalu mile jb uske uskprr -while (kn milegi wo value tbtk chkatltal haai)
+
+//for
+//1-100
+
+// for(start ; end ; change){}
+
+// for (let i = 1 ; i<101 ;i++){
+//     console.log(i);
+// }
+
+
+
+//while
+
+// start
+// while(end){
+//     //code
+//     change
+// }
+
+// let i=1;
+// while(i<32){
+//    //code
+//    console.log(i);
+//    i++; 
+// }
+
+// let i=12;
+// do{                      ///ek bar chaklgeea 
+//     console.log(i);
+//     i++;
+// }while(i<2); // false condtiton
+
+//.........................................................................................................
+
+//break continue
+
+// for(let i=1 ; i<201 ; i++){
+//     console.log(i);
+//     if(i===32){
+//         break;
+//     }
+// }
+
+// for(let i=1 ; i<201 ; i++){
+//     // console.log(i);
+//     if(i===32){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+//..............................................................................................
+//#question
+
+// for(let i=1 ; i<11 ;i++){
+//     console.log(i);
+// }
+
+// let i=10;
+// while(i>0){
+//     console.log(i);
+//     i--;
+// }
+
+// for(let i=0 ; i<=20 ; i++){
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// }
+
+// let i=1;
+// while(i<=15){
+//     if(i%2!==0){
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+
+// for(let i=1 ; i<=10 ; i++){
+//     console.log(`5 * ${i} = ${5 * i}`);
+// }
+
+// var number = 5;
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(number + " * " + i + " = " + (number * i));
+// }
+
+// let sum=0
+// for(let i=1 ; i<=100 ; i++){
+//     sum +=i;
+// }
+// console.log("sum of 1 -100 : " , sum);
+
+
+// for(i=1 ; i<51 ; i++){
+//     if(i%3===0){
+//         console.log(i);
+//     }
+// }
+
+
+// let number = prompt("give any number");
+// for(let i=1;i<=number ;i++){
+//     if(number%2===0){
+//         console.log(`${i} is even`);
+// }else{
+//     console.log(`${i} is odd`);
+// }
+// }
+
+// for(let i=1 ; i<=100 ; i++){
+//     if(i %3===0 && i%5===0){
+//         console.log(i);
+//     }
+// }
+
+// for(let i=1 ; i<101 ;i++){
+//     console.log(i);
+//     if(i%7===0){
+//         break;
+//     }
+// }
+
+// for(let i=1 ; i<21; i++){
+//     if(i%3!==0){
+//         console.log(i);
+//     }
+// }
+
+// let count=0;
+// for(let i=1 ;i<101 ;i++){
+//     if(i%2==0) continue;
+//     else{
+//         console.log(i)
+//         count++;
+//         if(count===5){
+//             break;
+//         }
+//     }
+    
+// }
 
