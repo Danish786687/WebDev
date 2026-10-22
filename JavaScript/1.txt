@@ -479,3 +479,156 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
     
 // }
 
+///....................................................................................................................
+
+// //FUNCTIONS
+// function wishing(){     //function declaration
+//     console.log("happy new year...");
+// }
+// wishing();
+
+
+// //declare fucntion in varibale type->> varible name is funciton name(fnc)
+// let fnc=function(){  //function ecpression
+//     console.log("heehhe");
+// }
+// fnc();
+
+// fat arrow fucntion   ()=>{} and save in fucntion name
+// let fnc = ()=>{
+//     console.log("hellp guyss;;");
+// }
+// fnc();
+
+//.............................................................
+//parameter vs argument
+
+// function dance(v1){   // v1= parameter
+//     console.log(`${v1} nach rhaa haii`)
+// }
+// dance("ashutosh");  //ashutosh=argument
+// dance("gourav");
+// dance("hira");
+
+// function add(v1,v2){   // v1,v2= parameter
+//     console.log(v1+v2);
+// }
+// add(9,0);
+// add(10,10);
+
+//...........................................................................
+
+//finction parameter
+
+// function add(v1=0,v2=0){  //defualt para
+//     console.log(v1+v2);  //NaN
+//     console.log(v1,v2);  // 1 undefined
+// }
+// add(4,5);
+
+//rest lor spread( jab argument kai sare hai too to hmein utne hi parmen
+// bannae pdenege , issey bachne k liye rest ka use krte hai...ahrgr..function ke parameeter space mein lagein to too woo rest opeartor hai)
+
+// function abcd(a,b,c,...val){
+//     console.log(a,b,c,val); // number and give array
+// }
+// abcd(1,2,3,4,5,6);
+
+
+///................................................................................
+//return matlab  jaha se aaye wha hi daal denege
+
+// function abcd(v){
+//     return 12+v;
+// }
+
+//  let val=abcd(13);
+//  console.log(val);
+
+//............................................................................
+//#first class fucntion::
+//>>> fucntion ko value ki trh treat krr skte ho
+
+//.. fucnton k andr 
+
+// function abcd(val){
+//     val();
+// }
+
+// abcd(function (){
+//     console.log("heyyy...")
+// });
+
+//higher order fucntion == wo function jo ki retunr ek ek fucntion ya phir accept krein ek fucntion apne paremeter mein
+
+// function abcd(){
+//     return function(){
+//         console.log("hiii xaviers...");
+//     };
+// }
+
+// abcd()();
+
+//...............................................................
+//pure vs impure fucntion
+
+//aisa fucntion jo bhr kii value ko na bdale wo hai pure
+// let a=12;
+// function abcd(){
+//     console.log(a);
+// }
+
+// //aisa fucntion jo bhr kii value ko  bdale wo hai impure
+// function ab(){
+//     a++;
+//     console.log(a);
+// }
+// abcd();
+// ab();
+
+//.........................................................................
+
+//closure and lexical  scoping
+//...closure-> ek function jo return kre ek ur function aur return hone wala fucntion hmesha youse krega parent fucntion ka koi variable
+
+// function abcd(){
+//     let a=12;
+//     return function() {
+//         console.log(a);
+        
+//     };
+// }
+
+//lexical scoping
+
+// function abcd(){
+//     let a=10;   // a ko pure fucntion k andr access kr skte lekin bhr nhi kr krskte
+//     function hbchb(){
+//         let b=909;   // b ko nichek do fucnton me access kr kste hain
+//         function rhbhf(){
+//             let c=898;  // c bs isi me acees hoga or ksis m nhi
+//         }
+//     }
+
+// }
+
+//..............................................................................................
+
+//IIFE (Immediately Invoked Function Expression))
+
+// Standard IIFE
+// (function(){
+
+// })() ; // fucntuion bnao name mtt doo puree ko small bracket doo phir call krdoo simple
+
+//ISKE ANDR DIRECT CODE LIKHO OR RUN HOGAA AS CSIMPLECOMMAND RUN HOTA HAI WITHOUT FUCNTON JAISE
+
+//..................................................................................................
+
+//#HOISTING
+abcd();  // hoisting ==bnene s phile use krna hai
+
+
+function abcd(){ // fucntion declaration me work bss functon exprressio m nhi
+console.log("debchbcjb");
+}
