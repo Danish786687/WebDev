@@ -50,7 +50,7 @@ let a=12; give error already declared
 // var a=12;
 // a=13;
 
-// var a; redecalre this is only with var not with let let generate errror
+// var a; redecalre this is only with var not with let let generate error
 
 //.........................................................................
 // TEMPORAL dead ZONE : js ko pta hai ki variable exist hai butt use value nhi de skta
@@ -111,7 +111,7 @@ let a=12; give error already declared
 // eg: let a;
 
 //symbol -> unique immuatbele vallue
-// future mein ham libarry use renege ab is case mein un libarryr main kai baar kuch fields hoti hai jinse similar hum bhi 
+// future mein ham libarry use krenege ab is case mein un libarryr main kai baar kuch fields hoti hai jinse similar hum bhi 
 // bhi bna dete hai aur galti se hmari bnai huyi fiels us library ki original fiels ko change kr dete haii
 //eg: 
 // let sheryjs ={
@@ -154,7 +154,7 @@ let a=12; give error already declared
 //  b.name ="ashutosh";
 
 // ## Dyanmic Typing: js mein static typing nahi hain and yaha pr hai dynamic
-// typing jiska matlb hai aap data ko change kr skte ho kruki yaha dynamic data types  hai
+// typing jiska matlb hai aap data ko change kr skte ho kruki yaha dynamic data types  hai  data of variable can cchnage
 
 // let a=12;
 // a = true;
@@ -191,15 +191,17 @@ EG: 12==13 // false (not strict comaprison)
 12=="13" // true
 fix by ===(strict comparison)
 12==="13" // false
+12===13 //false
+12===12 // true
 
 3. LOGICAL OPERATOR( && ,||, ! )
 
 !!12 show the nature of the valuee (truthy and falsy)
 
 4.ASSSIGNEMNT OPERATOR
- let a =22;
- a+=3
- //a =25
+let a =22;
+a+=3
+//a =25
 //a*=2
 //a=50
 
@@ -214,7 +216,7 @@ conditon ? true huie ka code : false huyi ka code
 12>13 ? console.log("true) : console.log("false")
 
 #typeof vs instanceof
-
+     >>  typeof: is used for primitve datatype
 learn:
 >> typeof(null) = object 
 >> typeof([]) = object
@@ -227,12 +229,12 @@ syntax: variable instanceof datatype
 let a=[];
 let b={};
  a instanceof Array // true
- b instance of Object // true
- b instance of Array // false
+ b instanceof Object // true
+ b instanceof Array // false
 
  // let score=78;
 
-// let grade= score >=90 ? "A" : score>=70 ? "B" : score >=60 ? "c" : "fail";
+// let grade= score > = 90 ? "A" : score>=70 ? "B" : score >=60 ? "c" : "fail";
 
 // console.log(grade);  //b
 
@@ -314,7 +316,7 @@ console.log(rps("paper","rock"));
 ...................................................................................................
 
 NOTE:: FOR TAKING INPUT FROMO THE USSR 
-let number =prompt("give any number");
+let number = prompt("give any number");
 
 day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 // for while do-while forin foreach
@@ -488,13 +490,13 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 // wishing();
 
 
-// //declare fucntion in varibale type->> varible name is funciton name(fnc)
+// //declare fucntion in varibale type->> varible name is funciton name>>(fnc)
 // let fnc=function(){  //function ecpression
 //     console.log("heehhe");
 // }
 // fnc();
 
-// fat arrow fucntion   ()=>{} and save in fucntion name
+// fat arrow fucntion   ()=>{} and save in fucntion name  like fn expression
 // let fnc = ()=>{
 //     console.log("hellp guyss;;");
 // }
@@ -535,7 +537,7 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 // abcd(1,2,3,4,5,6);
 
 
-///................................................................................
+///...................................................................................................................................
 //return matlab  jaha se aaye wha hi daal denege
 
 // function abcd(v){
@@ -545,7 +547,7 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 //  let val=abcd(13);
 //  console.log(val);
 
-//............................................................................
+//.....................................................................................................................................
 //#first class fucntion::
 //>>> fucntion ko value ki trh treat krr skte ho
 
@@ -569,7 +571,7 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 
 // abcd()();
 
-//...............................................................
+//............................................................................................................................................................
 //pure vs impure fucntion
 
 //aisa fucntion jo bhr kii value ko na bdale wo hai pure
@@ -586,7 +588,7 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 // abcd();
 // ab();
 
-//.........................................................................
+//.................................................................................................................................................
 
 //closure and lexical  scoping
 //...closure-> ek function jo return kre ek ur function aur return hone wala fucntion hmesha youse krega parent fucntion ka koi variable
@@ -626,9 +628,165 @@ day 5 : LOOPS:: repeat krne k eliuyee looop khte hai
 //..................................................................................................
 
 //#HOISTING
+
 abcd();  // hoisting ==bnene s phile use krna hai
 
 
 function abcd(){ // fucntion declaration me work bss functon exprressio m nhi
 console.log("debchbcjb");
 }
+
+
+// let sum=0;
+// for(let i=1;i<=10;i++){
+//     sum=sum+i;
+// }
+// console.log(sum);
+
+// let a=1
+// while(a<=3){
+//     console.log(a)
+//     a++
+// }
+
+// const i=10
+// do{
+// console.log(i)
+// i++
+// }while(i<=10)
+
+// console.log(abcd());  // hoisting ==bnene s phile use krna hai
+
+
+// function abcd(){ // fucntion declaration me work bss functon exprressio m nhi
+// console.log("debchbcjb");
+// }
+
+// for(let i=1;i<=3;i++){
+//     for(let j=1; j<=2;j++){
+//         console.log(i,j)
+//     }
+// }
+
+// for(let i=1;i<=5 ; i++){
+//     let row=""
+//     for(let j=1;j<=i;j++){
+//         console.log("*")
+//     }
+//     console.log(row)
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         console.log("*");
+//     }
+//     console.log("\n");
+// }
+
+
+// for (let i = 1; i <= 5; i++) {
+//     let row=""
+//     for (let j = 1; j <= i; j++){
+//         console.log(j)
+//         row+=i
+//     }
+    
+//     console.log(row)
+// }
+
+// for(let i=1;i<=5 ; i++){
+//     let row=""
+//     for(let j=1;j<=i;j++){
+//         console.log(j)
+//     }
+//     console.log(row)
+// }
+
+
+//ARRAY
+
+// let arr=["baanan","apple","mang0",[{as:"samda"},[234,54,"drbdhrb"],[true,false]],true,4584]  // multiple value can store in js
+
+// console.log(arr[3][2][0])
+// console.log(arr)
+// console.log(arr[0] ="DANSIH KHAN")
+
+//for of  -> for...of loop ka use kisi string ya array ke elements ko ek-ek karke access karne ke liye hota hai.
+// let arr="Danish khan"
+// for(let i of arr){
+//     console.log(i)
+//         // console.log(arr[1])
+
+// }
+
+// let i=1;
+// for(;i<=5;){
+//     console.log(i)
+//     i++
+// }
+
+
+//infifinote loop
+// for(;;){
+
+// }
+
+// for( var i=0 ;i<3;i++){
+//     console.log(i)
+// }
+// console.log(i)
+
+
+// let a = 10;
+// let b = 10;
+
+// if (a > b) {
+//     console.log("a is greater than b");
+// }
+// else if (b > a) {
+//     console.log("b is greater than a");
+// }
+// else {
+//     console.log("Both are equal");
+// }
+//..................................................................................................................
+
+// let multiply= (a,b)=>{
+//     return a*b
+// }
+
+// function f(){
+//     return
+// }
+// console.log(f())
+
+// function abcd(Val){
+//     Val();
+// }
+
+// abcd(function () {
+//     console.log("hellooo");
+// });
+
+
+// //bmi calculator
+// function bmi(weight , height){
+//     return weight/ (height*height)
+// }
+
+// console.log(bmi(60,1.8).toFixed(2))
+
+
+// function discountcalculator(discount){
+//     return function (price){
+//         return price -price *(discount/100);
+//     };
+// }
+
+// let ten= discountcalculator(10);  //10%discount
+// let twenty= discountcalculator(20);  //20%discount
+
+// console.log(ten(1200));
+// console.log(twenty(1200));  //price
+
+......................................................................................................
