@@ -1,7 +1,7 @@
 // //  let arr = [1,2,3,4,4];
 // // arr[50]   >>> undefined
 
-// // let arr= new Array  can also create by this
+// // let arr= new Array => can also create by this
 
 // //modify array 
 // // arr[3]=300
@@ -30,6 +30,12 @@
 // // arr.splice(2)  // remove all element after the index 2
 // console.log(arr)
 // console.log(arr.splice(2,2))  // which elelemnt will remove
+
+//insert "red" and "blue" at index 1 in htis array:
+// let colors=["green" , " yellow"]
+// colors.splice(1,0,"red","blue")  // it will add at index 1
+// console.log(colors)
+
 
 //give array of if we delete from between in arr form >> slice(index_start,index_end)  index_end not count
 //slice(index_start,index_end) end not count
@@ -145,13 +151,117 @@
 // console.log(a,b,d) //1 2 4
 
 
-//# spread operator
- let arr=[1,2,3,4,5,6,7,8]
-//  let arr2=arr; // ye coopy nhi bhejta pura refrence bhejta hai jisse  arr2 me change krne s arr m chnage hoga
+//# spread operator(only 3 dot)
+//  let arr=[1,2,3,4,5,6,7,8]
+// //  let arr2=arr; // ye coopy nhi bhejta pura refrence bhejta hai jisse  arr2 me change krne s arr m chnage hoga
 
-let arr2=[...arr]; // spread operator => copy aajayegi dsari
+// let arr2=[...arr]; // spread operator => copy aajayegi dsari
 
-console.log(arr2)
-arr2.pop()
-console.log(arr2)
+// console.log(arr2)
+// arr2.pop()
+// console.log(arr2)
+// console.log(arr)
+
+
+//...................................................
+//question
+
+//  let fruits=["apple" , "mango" , "papapya"]
+// // console.log(fruits[1])
+
+// fruits.push("Pineapple")
+// fruits.unshift("oranage")  // add at first
+// console.log(fruits)
+
+
+// let arr=[1,2,3,4,5,5]
+// arr.pop()
+// console.log(arr)
+
+//insert "red" and "blue" at index 1 in htis array:
+// let colors=["green" , " yellow"]
+// colors.splice(1,0,"red","blue")  // it will add at index 1
+// console.log(colors)
+
+
+//sort and reverse
+// let names=["zara","arjun","mira","bhavya"]
+// names.sort()
+// console.log(names)   //[ 'arjun', 'bhavya', 'mira', 'zara' ]
+// names.sort().reverse();
+// console.log(names) //[ 'zara', 'mira', 'bhavya', 'arjun' ]
+
+// let arr=[1,2,3,4,5,6,7]
+// let newarr= arr.map(function(val){
+//     return val*val;
+// })
+// console.log(newarr)
+
+// let arr=[1,2,3,4,5,6,3,7,23,323,32324545,545,32,676]
+// let ans=arr.filter(function(val){
+//     if(val>10) return val;
+// })
+// console.log(ans)  //[ 23, 323, 32324545, 545, 32, 676 ]
+
+// by fat arrow function
+// let arr=[1,2,3,4,5,6,3,7,23,323,32324545,545,32,676]
+// let ans=arr.filter((val)=>{
+//     return val>10
+// })
+// console.log(ans)  //[ 23, 323, 32324545, 545, 32, 676 ]
+
+// let arr=[20,30,10]
+// let sum=arr.reduce(function(accumulator,val){
+//     return accumulator + val;
+// }, 0);
+// console.log("sum of array:",sum)  //sum of array: 60
+
+
+///first no. less than 10
+// let arr=[12,15,3,8,20]
+// let ans=arr.find(function(val){ 
+//     // if(val<10) return val;   //or by this mwthod
+//     return val<10;
+// })
+// console.log(ans)  //3
+
+// let arr=[23,54,89,22,89]
+// let ans=arr.some(function(val){
+//     if(val<35) return val;    //some and every => true and false
+//     // return val<35;    // by this way also
+// })
+// console.log(ans)
+
+// let arr=[2,4,6,8,10]
+// let ans= arr.every(function(val){
+//     return val%2==0;
+// })
+// console.log(ans)  //true
+
+// let fullname=["harsh" ,"sharma"]
+// let [fname,lname] = fullname;  //destructure
+// console.log(fname,lname)
+
+//merge operator
+// let a=[1,2,3,4]
+// let b=[5,6,7]
+// let c=[...a, ...b]
+// console.log(c)  //[1,2,3,4,5,6,7]
+
+//spread opeartor
+// let countries=["UK","USA","NEPAL"];
+// let b =["INDIA"] 
+// countries=["INDIA", ...countries];  //[ 'INDIA', 'UK', 'USA', 'NEPAL' ]
+
+// countries=[b, ...countries];  //[ [ 'INDIA' ], 'UK', 'USA', 'NEPAL' ]
+// console.log(countries)
+
+// let arr=[1,2,3,4]
+// let ans=[...arr];
+// console.log(ans);  // copy but not refrence wise
+
+let arr=[7,3,4,2,6,1,454,322,43]
+arr.sort(function(a,b){
+    return b-a;
+})
 console.log(arr)
