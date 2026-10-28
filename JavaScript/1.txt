@@ -790,3 +790,488 @@ console.log("debchbcjb");
 // console.log(twenty(1200));  //price
 
 ......................................................................................................
+.................................................................................................................
+// //  let arr = [1,2,3,4,4];
+// // arr[50]   >>> undefined
+
+// // let arr= new Array => can also create by this
+
+// //modify array 
+// // arr[3]=300
+// // console.log(arr)
+
+// //ARRAY METHOD  >>> arr.method()
+
+// let arr=[1,2,3,4,5,6]
+// arr.push(999)
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+
+// //remove elemnt from the starting >> shift
+// arr.shift();
+// console.log(arr)
+
+// //add element at the starting >> unshift
+// arr.unshift(0)
+// console.log(arr)
+
+// //remove ekement from in between element>>> splice(index,kitnivalue htani hn)
+// // it change the actual array
+// arr.splice(2,1)
+// console.log(arr)
+// // arr.splice(2)  // remove all element after the index 2
+// console.log(arr)
+// console.log(arr.splice(2,2))  // which elelemnt will remove
+
+//insert "red" and "blue" at index 1 in htis array:
+// let colors=["green" , " yellow"]
+// colors.splice(1,0,"red","blue")  // it will add at index 1
+// console.log(colors)
+
+
+//give array of if we delete from between in arr form >> slice(index_start,index_end)  index_end not count
+//slice(index_start,index_end) end not count
+
+// let arr=[1,2,3,4,5,6,7]
+// let newarr= arr.slice(0,3)
+// console.log(newarr)
+
+// //reverse() >> chnage the actual array in reverse order
+
+// arr.reverse()
+// console.log(arr) [7, 6, 5, 4,3, 2, 1]
+  
+
+//#sort >> hmesha function accept krta hai
+//  return a-b;  >> for ascending order
+// return b-arr;  >> for descending order
+// let arr=[23,34,1,3,54,26]
+// arr.sort(function(a,b){
+//     return b-a;
+
+// })
+// console.log(arr)
+
+// NOTE: sort(),map , filter,reduce sb function accept krte hai
+
+//forEach>>> hr ek element ke liye fucntion ko chalte hai
+// let arr=[23,34,1,3,54,26]
+// arr.forEach(function(val){
+//     console.log(val)
+// });
+
+//adding +5 to each element
+// let arr=[23,34,1,3,54,26]
+// arr.forEach(function(val){
+//     console.log(val+5)
+// });
+
+
+//#map>> map sirf tb use krna hai jab aapko new array bnaana hai
+//pichle array ke data k basis par
+//no. of element in old arr = no. of element in new arr by map
+
+//map dikhte hi sath mn m blank arr bnao newarr=[]
+// let arr=[23,34,1,3,54,26]
+// arr.forEach(function(val){
+//     console.log(val)
+// });
+
+// newarr=arr.map(function(val){
+//     return 12; //sbme 12 aayga  // return krna mandotory hain...agr kuch return nhi to undefined aayga..
+//     return val;  //sari purani arr ki value aaygi?
+// });
+// console.log(newarr)
+
+// newarr=arr.map(function(val){
+//     if(val>30) return val;
+// })
+// console.log(newarr)
+
+
+//note://jab aapko aapko koi aisa  acase dikh jaye jahha par  ek aaraya s new arr bnega and wo naya array kuch values ko rkehaga tab map krega..
+
+
+//#filter >. same as map syntax
+// either return >> true or false
+// return true  => val wali value new arr m jygi tb
+// return false  => val wali value new arr m  nhi jygi tb
+
+// let arr=[1,2,3,4,5,6,7,8]
+
+// let newarr=arr.filter(function(val){
+//     if(val>4) return true;
+// })
+// console.log(newarr)  //[ 5, 6, 7, 8 ]
+
+
+//#reduce  ==> give one value from the whole array like sum of whole array
+// let arr=[1,2,3,4,5,6,7,8]
+// let ans = arr.reduce(function(accumulator ,val){
+//     return accumulator + val;   // return hone k baad accumlator me save hoga or new value assign hgi accumulator mee after 1 iteraton
+// } , 0);  // here 0 is value of accumulator
+
+// console.log(ans)
+
+//#find => return krta hai jiski value phile aayi rhti hai condition k hisab see
+// let arr=[1,2,3,3,1,4,5,6,7,8]
+//  let va= arr.find(function (val){
+//     return val===1;
+//  })
+// console.log(va)
+
+
+//#some  =>> if any value condtion satisfy krdegi tb true return otherwise false
+// let marks=[40,30,87,54,65,90]
+// let ans= marks.some(function(val){
+//     return val>80
+// })
+// console.log(ans)
+
+//#every()  => some ka just ulta  ,,,, return true or false
+// sare element condtion ko satisfy krhe yaa nhi
+
+// let marks=[40,30,87,54,65,90]
+// let ans=marks.every(function( val) {
+//     return val>10;  //true
+// })
+// console.log(ans)
+
+//#destructuing
+// let arr=[1,2,3,4,5,6,7]
+// let [a,b,,d]=arr;
+// console.log(a,b,d) //1 2 4
+
+
+//# spread operator(only 3 dot)
+//  let arr=[1,2,3,4,5,6,7,8]
+// //  let arr2=arr; // ye coopy nhi bhejta pura refrence bhejta hai jisse  arr2 me change krne s arr m chnage hoga
+
+// let arr2=[...arr]; // spread operator => copy aajayegi dsari
+
+// console.log(arr2)
+// arr2.pop()
+// console.log(arr2)
+// console.log(arr)
+
+
+//...................................................
+//question
+
+//  let fruits=["apple" , "mango" , "papapya"]
+// // console.log(fruits[1])
+
+// fruits.push("Pineapple")
+// fruits.unshift("oranage")  // add at first
+// console.log(fruits)
+
+
+// let arr=[1,2,3,4,5,5]
+// arr.pop()
+// console.log(arr)
+
+//insert "red" and "blue" at index 1 in htis array:
+// let colors=["green" , " yellow"]
+// colors.splice(1,0,"red","blue")  // it will add at index 1
+// console.log(colors)
+
+
+//sort and reverse
+// let names=["zara","arjun","mira","bhavya"]
+// names.sort()
+// console.log(names)   //[ 'arjun', 'bhavya', 'mira', 'zara' ]
+// names.sort().reverse();
+// console.log(names) //[ 'zara', 'mira', 'bhavya', 'arjun' ]
+
+// let arr=[1,2,3,4,5,6,7]
+// let newarr= arr.map(function(val){
+//     return val*val;
+// })
+// console.log(newarr)
+
+// let arr=[1,2,3,4,5,6,3,7,23,323,32324545,545,32,676]
+// let ans=arr.filter(function(val){
+//     if(val>10) return val;
+// })
+// console.log(ans)  //[ 23, 323, 32324545, 545, 32, 676 ]
+
+// by fat arrow function
+// let arr=[1,2,3,4,5,6,3,7,23,323,32324545,545,32,676]
+// let ans=arr.filter((val)=>{
+//     return val>10
+// })
+// console.log(ans)  //[ 23, 323, 32324545, 545, 32, 676 ]
+
+// let arr=[20,30,10]
+// let sum=arr.reduce(function(accumulator,val){
+//     return accumulator + val;
+// }, 0);
+// console.log("sum of array:",sum)  //sum of array: 60
+
+
+///first no. less than 10
+// let arr=[12,15,3,8,20]
+// let ans=arr.find(function(val){ 
+//     // if(val<10) return val;   //or by this mwthod
+//     return val<10;
+// })
+// console.log(ans)  //3
+
+// let arr=[23,54,89,22,89]
+// let ans=arr.some(function(val){
+//     if(val<35) return val;    //some and every => true and false
+//     // return val<35;    // by this way also
+// })
+// console.log(ans)
+
+// let arr=[2,4,6,8,10]
+// let ans= arr.every(function(val){
+//     return val%2==0;
+// })
+// console.log(ans)  //true
+
+// let fullname=["harsh" ,"sharma"]
+// let [fname,lname] = fullname;  //destructure
+// console.log(fname,lname)
+
+//merge operator
+// let a=[1,2,3,4]
+// let b=[5,6,7]
+// let c=[...a, ...b]
+// console.log(c)  //[1,2,3,4,5,6,7]
+
+//spread opeartor
+// let countries=["UK","USA","NEPAL"];
+// let b =["INDIA"] 
+// countries=["INDIA", ...countries];  //[ 'INDIA', 'UK', 'USA', 'NEPAL' ]
+
+// countries=[b, ...countries];  //[ [ 'INDIA' ], 'UK', 'USA', 'NEPAL' ]
+// console.log(countries)
+
+// let arr=[1,2,3,4]
+// let ans=[...arr];
+// console.log(ans);  // copy but not refrence wise
+
+let arr=[7,3,4,2,6,1,454,322,43]
+arr.sort(function(a,b){
+    return b-a;
+})
+console.log(arr)
+
+
+.............................................................................................
+//....OBJECT....
+// obejct
+// let object_name={
+//     key:"value"
+// }
+// eg:
+// let obj = {
+//     name: "danish", 
+//     age: 90,
+//     food: "biryani"
+// };
+
+// dot(.) operator use to accesss the object element
+// in dot opeartor after the dot the var_nam must preseent in obj
+// console.log(obj.name) // danish
+// console.log(obj.age) //90
+// console.log(obj.food)// biryani
+
+//by this method also can access
+// console.log(obj['name'])  // danish  //only chngae the name and search
+
+
+//#NESTING AND DEEP ACCESS
+// const user = {
+//     name: "danish", 
+//     address: {
+//         city:"azm",
+//         pin:276138,
+//         location :{
+//             lat:23.3,
+//             lng:43.3
+//         },
+//     },
+// };
+
+//to access the lng(deep access)
+// console.log(user.address.location.lng)  //43.3
+//NOte:// console.log(user.address.locationsss.lng)  //error generated but it show in lng but it before the lng ok!!
+
+//destrucutring
+// let {lat,lng}= user.address.location;  // short form to access easily later by var nam
+
+// console.log(lng)
+// console.log(lat)
+
+//LOOPING:
+//  let obj = {
+//     name: " danish",
+//     age: 24,
+//     email: "dnaish1231@gmail.com"
+//  };
+
+//  for( let key in obj){
+//     // console.log(key)  //name age email   obj.key will error because no anyname of key var avaiable
+//     console.log(key,":",obj[key])  // it will show value
+//  }
+
+//# Object.keys(obj) => give array of keys
+// console.log(Object.keys(obj))  //[ 'name', 'age', 'email' ]
+
+//Object.entries(obj) => arrays of array  == key or value ka ek list orr phir ka list
+// console.log(Object.entries(obj))
+
+
+//copying object
+// let obj = {
+//     name: " danish",
+//     age: 24,
+//     email: "dnaish1231@gmail.com"
+//  };
+
+//  let obj2={...obj};  //copying object  //spread opeartor
+
+ //object.assign(notimp)
+
+//  let obj2=Object.assign({},obj);  //copy same as copying object  we can add by delivering parameter in the assign
+
+//DEEP CLONE
+//solving problem of: jb nested object rhta hai too nesting ka sara element
+// as a refrence pass hota hai chahe aap spread operator se copy..jiski
+//wjh se copy wale me changes(nested elemnts me) krne se original me changes hone lgta hai 
+//solution is deep clone
+//eg:
+
+// let obj ={
+//     name: " danish",
+//     age:20,
+//     email:"danish@gmail.com",  //till here only copy pass
+//     address:{
+//         city:"azm",       // it will pass as refrence
+//     },
+// };
+// let obj2 = {...obj};
+// console.log(obj)
+// console.log(obj2)
+// obj2.address.city="mumbai";
+// console.log(obj)
+// console.log(obj2)
+
+//how it can solve?
+//changing the ofull object into string by JSON.stringify(obj)
+// JSON.parse convert back into the origignal object
+
+// let obj ={
+//     name: " danish",
+//     age:20,
+//     email:"danish@gmail.com", 
+//     address:{
+//         city:"azm",       
+//     },
+// };
+
+// let obj2=JSON.parse(JSON.stringify(obj));  //copying when object is in nested
+// console.log(obj) 
+// console.log(obj2)
+// obj2.address.city="MUMBAI";
+// console.log(obj)   //city will be azm
+// console.log(obj2)  // city will be MUMBAI
+
+
+//#OPTIONAL CHAINIG (?.)
+
+//if any one change the obj_var name later and access by their org name
+// and not found then it give error so to handle error we use that
+// let obj ={
+//     name: " danish",
+//     age:20,
+//     email:"danish@gmail.com", 
+//     addressss:{
+//         city:"azm",       
+//     },
+// };
+
+// console.log(obj?.address?.city)  //undefined   as address is not defined in obj
+
+
+//#COMPUTER PROPERTIES  (dynamically assign a property)
+// let role="admin";
+
+// let obj ={
+//     name: " danish",
+//     age:20,
+//     email:"danish@gmail.com", 
+//     addressss:{
+//         city:"azm",       
+//     },
+//     [role]: "ADITYA",    // adding object named admin: "adtiya"
+// };
+// console.log(obj)
+
+//op...
+// {
+//   name: ' danish',
+//   age: 20,
+//   email: 'danish@gmail.com',
+//   addressss: { city: 'azm' },
+//   admin: 'ADITYA'
+// }
+
+//...............................................
+//prac...
+
+// let student ={
+//     name:"danish",
+//     age:29,
+//     isEnrolled: true,
+// }
+// console.log(student)
+
+
+//can object key be a number or boolean ? yess
+// const obj={
+//     true: "yes",
+//     42:"asnwnej",
+// }
+// console.log(obj)   //{ '42': 'asnwnej', true: 'yes' }
+
+//destrucut the key "first-name" as a varibale called firstname
+
+// const user={
+//     "first-name":"danish",
+// }
+// let { "first-name" : firstname} =user  // here variable name is firstname
+
+// console.log(firstname)   //danish
+
+// let obj ={
+//     name: " danish",
+//     age:20,
+//     email:"danish@gmail.com", 
+
+// };
+// // for(let key in obj){
+// //     console.log(key,":",obj[key])
+// // }
+
+// Object.entries(obj).forEach(function(val){
+//     console.log(val[0] + " : " + val[1]);
+// })
+
+//op..
+// name :  danish
+// age : 20
+// email : danish@gmail.com
+
+// const obj1= { info :{score : 80}}
+// // const clone = {...obj1}   //refrence pass here
+// // clone.info.score =100;
+// // console.log(obj1.info.score)  //100 
+
+// let clone = JSON.parse(JSON.stringify(obj1))  // deep clone
+// clone.info.score =100;
+// console.log(obj1)   //{ info: { score: 80 } }
+// console.log(clone)  //{ info: { score: 100 } }
